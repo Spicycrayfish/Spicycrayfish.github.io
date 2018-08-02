@@ -1,7 +1,7 @@
 # Site settings
 title: Tank's Blog
 SEOTitle: 谭轲的博客 | Tank's Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/post-bg-unix-linux.jpg
 email: spicycrayfish@gmail.com
 description: "hello world"
 keyword: "Tank, Tank Blog, Tank's Blog, 谭轲的博客, tanke, 谭轲"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/Spicycrayfish/Spicycrayfish.github.io.git" # yo
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "得来烹煮味偏浓，笑傲江湖打哄"
-sidebar-avatar: /img/tank.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/tank_.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
