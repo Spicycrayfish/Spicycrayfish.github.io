@@ -1,24 +1,47 @@
 ---
 layout: page
 title: "About"
-description: "你是我的梦想"
-header-img: "img/about-bg.jpg"
+description: "DO OR DIE"
+header-img: "img/post-bg-rwd.jpg"
 multilingual: true
 ---
 
-{% include multilingual-sel.html %}
 
 <!-- Chinese Version -->
-<div class="zh post-container">
+<!-- <div class="zh post-container">
     {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
     {{ about_zh | markdownify }}
+</div> -->
+<div class="zh post-container" style="font-size: 1.2em">
+
+    <!--copied from markdown -->
+    <blockquote><p>You got a dream, you gotta protect it. People can't do something themselves,they wanna tell you you can't do it.If you want something, go get it.</p></blockquote>
+
+    <p>有缘了，我叫<strong>谭轲</strong>，目前专职前端开发，小程序开发，现在深圳工作。</p>
+
+    <p>我是个心思比较散的人，感兴趣的东西很多。喜欢篮球，喜欢小说电影，喜欢健身...有意思的东西我都想去了解。</p>
+    
+    <p>还想学很多有意思的东西...</p>
+
+    <p>这是我fork的博客，想要搭建博客的同学可以戳 <a target="_blank" href="https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B">原版博客搭建教程</a> ，是利用 <a target="_blank" href="https://pages.github.com/">GitHub Pages</a> 与 <a target="_blank" href="http://jekyll.com.cn/">Jekyll</a> 搭建的，面向零基础小白，操作简便，你值得泳有！</p>
+
+    <p></p>
+    
+    <h5>Talks</h5>
+
+    <ul>
+        <li><a href="https://github.com">GitHub</a></li>
+        <li><a href="http://jekyll.com.cn/">jekyll</a></li>
+        <!-- <li><a href="http://huangxuan.me/">Hux</a></li>  -->
+        <!-- <li><a href="https://analytics.google.com/analytics">Google Analytics</a></li> -->
+    </ul>
 </div>
 
 <!-- English Version -->
-<div class="en post-container">
+<!-- <div class="en post-container">
     {% capture about_en %}{% include about/en.md %}{% endcapture %}
     {{ about_en | markdownify }}
-</div>
+</div> -->
 
 
 {% if site.disqus_username %}
